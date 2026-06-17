@@ -42,21 +42,6 @@ cd ~/.claude/skills/bp-office-hours
 
 把仓库克隆到 Claude 的 skills 目录（路径以你的客户端为准）。PDF / PPT / DOC 上传原生支持，**不需要 install.sh**。
 
-### Cursor
-
-把仓库克隆到你项目下的 `.cursor/rules/bp-office-hours/`，Cursor 会自动把 `SKILL.md` 作为项目规则加载。
-
-```bash
-git clone https://github.com/cherotichsxy-hub/42-bp-office-hours-skill .cursor/rules/bp-office-hours
-```
-
-### 其他 coding agent / AI 平台
-
-Skill 本质是一份结构化提示词 + 参考文档，可以适配几乎任何平台：
-
-- **Custom GPT / Claude Project**：把 `SKILL.md` 内容粘进 system prompt / instructions，把 `references/` 和 `examples/` 作为 knowledge files 附上。
-- **Aider / Continue / Kimi Code / 其他**：把 `SKILL.md` 作为 system prompt 或对话开头粘进去。
-- **任何支持自定义 instructions 的 AI**：同上。
 
 ## 触发方式
 
