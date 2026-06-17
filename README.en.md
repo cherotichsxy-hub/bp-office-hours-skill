@@ -8,6 +8,8 @@ English · [中文](README.md)
 
 A Claude Skill that runs an office-hours session for early-stage founders. Through structured questioning, it helps you think through and articulate your project, then produces a fundraising-ready content draft, a Pitch Deck outline, and targeted suggestions.
 
+*(We built this Skill hoping to help founders tell their story better — distilled from years of conversations with founders and investors. It's still early and far from polished, so please bear with us if you run into rough edges. Feedback is very welcome. Current version: v0.1)*
+
 ## When to use
 
 - Analyze, improve, or rewrite a BP / pitch deck / fundraising memo
